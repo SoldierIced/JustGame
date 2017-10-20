@@ -1,0 +1,2601 @@
+# depslib dependency file v1.0
+1499214094 source:c:\users\gabi\desktop\docs\c++\dikhotomiasdl\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<math.h>
+	<iostream>
+	"varglob.h"
+	"claseranking.h"
+	"claseobjeto.h"
+	"clasejugadorbrut.h"
+	"clasejugadorhard.h"
+	"claseenemigobrut.h"
+	"claseenemigograndebrut.h"
+	"claseenemigohard.h"
+	"claserocket.h"
+	"clasetimer.h"
+	"funciones.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\close_code.h
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325807594 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1500304072 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\varglob.h
+
+1498262976 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clases.h
+
+1500526540 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\funciones.h
+
+1325803740 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1500524609 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseobjeto.h
+
+1498428338 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clasejugador.h
+
+1498428253 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseenemigo.h
+
+1499262524 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clasetimer.h
+
+1500487966 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clasejugadorbrut.h
+
+1499262524 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseenemigobrut.h
+
+1500524607 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clasejugadorhard.h
+
+1500526450 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseenemigohard.h
+
+1500524611 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claserocket.h
+
+1500517572 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseranking.h
+
+1499299346 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseenemigograndebrut.h
+
+1500855352 source:e:\docs\dikhotomiasdl\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<math.h>
+	<iostream>
+	"varglob.h"
+	"claseranking.h"
+	"claseobjeto.h"
+	"clasejugadorbrut.h"
+	"clasejugadorhard.h"
+	"claseenemigobrut.h"
+	"claseenemigograndebrut.h"
+	"claseenemigohard.h"
+	"claserocket.h"
+	"clasetimer.h"
+	"funciones.h"
+
+1500304072 e:\docs\dikhotomiasdl\varglob.h
+
+1500517574 e:\docs\dikhotomiasdl\claseranking.h
+
+1501096774 e:\docs\dikhotomiasdl\claseobjeto.h
+
+1500487966 e:\docs\dikhotomiasdl\clasejugadorbrut.h
+
+1501096772 e:\docs\dikhotomiasdl\clasejugadorhard.h
+
+1499262524 e:\docs\dikhotomiasdl\claseenemigobrut.h
+
+1499299346 e:\docs\dikhotomiasdl\claseenemigograndebrut.h
+
+1501115686 e:\docs\dikhotomiasdl\claseenemigohard.h
+
+1500524612 e:\docs\dikhotomiasdl\claserocket.h
+
+1499262524 e:\docs\dikhotomiasdl\clasetimer.h
+
+1501116316 e:\docs\dikhotomiasdl\funciones.h
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 e:\docs\programming stuff\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\close_code.h
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325807594 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1500855352 source:d:\docs\dikhotomiasdl\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<math.h>
+	<iostream>
+	"varglob.h"
+	"claseranking.h"
+	"claseobjeto.h"
+	"clasejugadorbrut.h"
+	"clasejugadorhard.h"
+	"claseenemigobrut.h"
+	"claseenemigograndebrut.h"
+	"claseenemigohard.h"
+	"claserocket.h"
+	"clasetimer.h"
+	"funciones.h"
+
+1500304072 d:\docs\dikhotomiasdl\varglob.h
+
+1500517574 d:\docs\dikhotomiasdl\claseranking.h
+
+1501096774 d:\docs\dikhotomiasdl\claseobjeto.h
+
+1500487966 d:\docs\dikhotomiasdl\clasejugadorbrut.h
+
+1501156492 d:\docs\dikhotomiasdl\clasejugadorhard.h
+
+1499262524 d:\docs\dikhotomiasdl\claseenemigobrut.h
+
+1499299346 d:\docs\dikhotomiasdl\claseenemigograndebrut.h
+
+1501157914 d:\docs\dikhotomiasdl\claseenemigohard.h
+
+1500524612 d:\docs\dikhotomiasdl\claserocket.h
+
+1499262524 d:\docs\dikhotomiasdl\clasetimer.h
+
+1501158324 d:\docs\dikhotomiasdl\funciones.h
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 d:\docs\programming stuff\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\close_code.h
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325807594 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 e:\docs\programming stuff\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 d:\docs\programming stuff\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1502394316 source:g:\proyecto para nehuen\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326107388 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_platform.h
+
+1326107394 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326107400 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\begin_code.h
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\close_code.h
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keysym.h
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 g:\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325814794 g:\proyecto para nehuen\sdl_ttf-2.0.11\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325810434 g:\proyecto para nehuen\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1502907488 g:\proyecto para nehuen\varglob.h
+
+1501885520 g:\proyecto para nehuen\clasetimer.h
+
+1502393478 g:\proyecto para nehuen\funciones.h
+
+1501713182 source:c:\users\nfortes\desktop\nehuen\proyecto para nehuen\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1501713917 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\varglob.h
+
+1499262524 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\clasetimer.h
+
+1501713246 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\funciones.h
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326107388 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_platform.h
+
+1326107394 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326107400 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\begin_code.h
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\close_code.h
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keysym.h
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325814794 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl_ttf-2.0.11\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325810434 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501720489 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\clases.h
+
+1501720446 c:\users\nfortes\desktop\nehuen\proyecto para nehuen\juego.h
+
+1502909748 g:\proyecto para nehuen\clases.h
+
+1502909838 g:\proyecto para nehuen\juego.h
+
+1502394316 source:j:\proyecto para nehuen\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1503006760 j:\proyecto para nehuen\varglob.h
+
+1501885520 j:\proyecto para nehuen\clasetimer.h
+
+1503955842 j:\proyecto para nehuen\clases.h
+
+1502393478 j:\proyecto para nehuen\funciones.h
+
+1503956370 j:\proyecto para nehuen\juego.h
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326107388 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_platform.h
+
+1326107394 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326107400 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\begin_code.h
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\close_code.h
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keysym.h
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325735040 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325814794 c:\users\nfortes\desktop\sdl\sdl_ttf-2.0.11\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325810434 c:\users\nfortes\desktop\sdl\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501791705 source:c:\users\nfortes\desktop\proyecto para nehuen\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1501713918 c:\users\nfortes\desktop\proyecto para nehuen\varglob.h
+
+1499262524 c:\users\nfortes\desktop\proyecto para nehuen\clasetimer.h
+
+1501882147 c:\users\nfortes\desktop\proyecto para nehuen\clases.h
+
+1501713248 c:\users\nfortes\desktop\proyecto para nehuen\funciones.h
+
+1501881994 c:\users\nfortes\desktop\proyecto para nehuen\juego.h
+
+1501885523 source:c:\users\nehuen\desktop\proyecto para nehuen\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1501886214 c:\users\nehuen\desktop\proyecto para nehuen\varglob.h
+
+1501885519 c:\users\nehuen\desktop\proyecto para nehuen\clasetimer.h
+
+1501885519 c:\users\nehuen\desktop\proyecto para nehuen\clases.h
+
+1501885521 c:\users\nehuen\desktop\proyecto para nehuen\funciones.h
+
+1501885521 c:\users\nehuen\desktop\proyecto para nehuen\juego.h
+
+1501885889 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885896 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1501885891 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1501885898 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_platform.h
+
+1501885891 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1501885866 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\begin_code.h
+
+1501885866 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\close_code.h
+
+1501885890 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885893 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1501885897 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1501885899 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885891 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885893 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885890 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885895 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keysym.h
+
+1501885897 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885899 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1501885896 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885901 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\nehuen\desktop\proyecto para nehuen\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501886209 c:\users\nehuen\desktop\proyecto para nehuen\sdl_ttf-2.0.11\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501886200 c:\users\nehuen\desktop\proyecto para nehuen\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885889 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885896 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1501885891 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1501885898 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_platform.h
+
+1501885891 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1501885866 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\begin_code.h
+
+1501885866 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\close_code.h
+
+1501885890 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885893 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1501885897 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1501885899 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885891 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885893 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885890 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885895 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keysym.h
+
+1501885897 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885899 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1501885896 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885901 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885901 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\nehuen\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325814794 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325810434 c:\users\nfortes\desktop\sdl\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1502394316 source:k:\proyecto para nehuen\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1503006760 k:\proyecto para nehuen\varglob.h
+
+1501885520 k:\proyecto para nehuen\clasetimer.h
+
+1503017028 k:\proyecto para nehuen\clases.h
+
+1502393478 k:\proyecto para nehuen\funciones.h
+
+1503017700 k:\proyecto para nehuen\juego.h
+
+1502394316 source:e:\proyecto para nehuen\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1503006760 e:\proyecto para nehuen\varglob.h
+
+1501885520 e:\proyecto para nehuen\clasetimer.h
+
+1503955842 e:\proyecto para nehuen\clases.h
+
+1502393478 e:\proyecto para nehuen\funciones.h
+
+1505169700 e:\proyecto para nehuen\juego.h
+
+1502394316 source:d:\proyecto para nehuen\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1503006760 d:\proyecto para nehuen\varglob.h
+
+1501885520 d:\proyecto para nehuen\clasetimer.h
+
+1503955842 d:\proyecto para nehuen\clases.h
+
+1502393478 d:\proyecto para nehuen\funciones.h
+
+1504184140 d:\proyecto para nehuen\juego.h
+
+1501885890 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885896 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1501885892 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1501885898 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_platform.h
+
+1501885892 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1501885866 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\begin_code.h
+
+1501885866 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\close_code.h
+
+1501885890 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1501885898 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1501885900 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885890 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885896 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keysym.h
+
+1501885898 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1501885896 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\administrador\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501886210 c:\users\administrador\desktop\sdll\sdl_ttf-2.0.11\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501886200 c:\users\administrador\desktop\sdll\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1505343166 source:e:\juego con funciones\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1505343010 e:\juego con funciones\varglob.h
+
+1501885520 e:\juego con funciones\clasetimer.h
+
+1505949740 e:\juego con funciones\clases.h
+
+1502393478 e:\juego con funciones\funciones.h
+
+1505949900 e:\juego con funciones\juego.h
+
+1505343166 source:d:\juego con funciones\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1505343010 d:\juego con funciones\varglob.h
+
+1501885520 d:\juego con funciones\clasetimer.h
+
+1505398512 d:\juego con funciones\clases.h
+
+1502393478 d:\juego con funciones\funciones.h
+
+1505348006 d:\juego con funciones\juego.h
+
+1501885890 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885896 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1501885892 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1501885898 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_platform.h
+
+1501885892 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1501885866 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\begin_code.h
+
+1501885866 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\close_code.h
+
+1501885890 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1501885898 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1501885900 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885892 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885890 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885896 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_keysym.h
+
+1501885898 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885900 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1501885896 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885902 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501886210 c:\users\mugetsu\desktop\sdll\sdl_ttf-2.0.11\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501885894 c:\users\mugetsu\desktop\sdll\sdl-devel-1.2.15-mingw32\sdl-1.2.15\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1505343166 source:e:\laboratorio ii\juego parcial 2 lab 2\juego con funciones\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1505343010 e:\laboratorio ii\juego parcial 2 lab 2\juego con funciones\varglob.h
+
+1501885520 e:\laboratorio ii\juego parcial 2 lab 2\juego con funciones\clasetimer.h
+
+1507243910 e:\laboratorio ii\juego parcial 2 lab 2\juego con funciones\clases.h
+
+1507066386 e:\laboratorio ii\juego parcial 2 lab 2\juego con funciones\funciones.h
+
+1507243600 e:\laboratorio ii\juego parcial 2 lab 2\juego con funciones\juego.h
+
+1507986322 source:e:\laboratorio ii\juego parcial 2 lab 2\juego actual\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"boss.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+	"enemigos.h"
+	"boss.h"
+
+1505343010 e:\laboratorio ii\juego parcial 2 lab 2\juego actual\varglob.h
+
+1501885520 e:\laboratorio ii\juego parcial 2 lab 2\juego actual\clasetimer.h
+
+1507984428 e:\laboratorio ii\juego parcial 2 lab 2\juego actual\clases.h
+	"funciones.h"
+
+1507066386 e:\laboratorio ii\juego parcial 2 lab 2\juego actual\funciones.h
+
+1507990288 e:\laboratorio ii\juego parcial 2 lab 2\juego actual\juego.h
+	"enemigos.h"
+
+1505343166 source:f:\laboratorio ii\juego parcial 2 lab 2\juego actual\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+
+1505343010 f:\laboratorio ii\juego parcial 2 lab 2\juego actual\varglob.h
+
+1501885520 f:\laboratorio ii\juego parcial 2 lab 2\juego actual\clasetimer.h
+
+1507809432 f:\laboratorio ii\juego parcial 2 lab 2\juego actual\clases.h
+
+1507066386 f:\laboratorio ii\juego parcial 2 lab 2\juego actual\funciones.h
+
+1507809570 f:\laboratorio ii\juego parcial 2 lab 2\juego actual\juego.h
+
+1507982662 e:\laboratorio ii\juego parcial 2 lab 2\juego actual\enemigos.h
+
+1507990484 e:\laboratorio ii\juego parcial 2 lab 2\juego actual\boss.h
+
+1507986322 source:f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"boss.h"
+	"clases.h"
+	"funciones.h"
+	"juego.h"
+	"enemigos.h"
+	"boss.h"
+
+1505343010 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\varglob.h
+
+1501885520 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\clasetimer.h
+
+1508024406 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\boss.h
+
+1508022500 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\clases.h
+	"funciones.h"
+
+1507066386 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\funciones.h
+
+1508024362 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\juego.h
+	"enemigos.h"
+
+1507982662 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\enemigos.h
+
+1508417406 source:e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"boss.h"
+	"funciones.h"
+	"juego.h"
+	"enemigos.h"
+	"boss.h"
+
+1505343010 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\varglob.h
+
+1501885520 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\clasetimer.h
+
+1508421124 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\boss.h
+
+1508449752 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\clases.h
+	"funciones.h"
+
+1507066386 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\funciones.h
+
+1508449752 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\juego.h
+	"enemigos.h"
+
+1508450646 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\enemigos.h
+
+1508417406 source:d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"boss.h"
+	"funciones.h"
+	"juego.h"
+	"enemigos.h"
+	"boss.h"
+
+1505343010 d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\varglob.h
+
+1501885520 d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\clasetimer.h
+
+1508421124 d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\boss.h
+
+1508424436 d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\clases.h
+	"funciones.h"
+
+1507066386 d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\funciones.h
+
+1508424980 d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\juego.h
+	"enemigos.h"
+
+1508424836 d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\enemigos.h
+
