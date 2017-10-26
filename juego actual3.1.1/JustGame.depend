@@ -2599,3 +2599,69 @@
 
 1508424836 d:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1\enemigos.h
 
+1508417406 source:f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"boss.h"
+	"funciones.h"
+	"juego.h"
+	"enemigos.h"
+	"boss.h"
+
+1505343010 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\varglob.h
+
+1501885520 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\clasetimer.h
+
+1508449752 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\clases.h
+	"funciones.h"
+
+1507066386 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\funciones.h
+
+1508421124 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\boss.h
+
+1508887766 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\juego.h
+	"enemigos.h"
+
+1508450646 f:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\enemigos.h
+
+1508417406 source:e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"varglob.h"
+	"clasetimer.h"
+	"clases.h"
+	"boss.h"
+	"funciones.h"
+	"juego.h"
+	"enemigos.h"
+	"boss.h"
+
+1505343010 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\varglob.h
+
+1501885520 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\clasetimer.h
+
+1508449752 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\clases.h
+	"funciones.h"
+
+1507066386 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\funciones.h
+
+1508975230 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\boss.h
+
+1508977546 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\juego.h
+	"enemigos.h"
+
+1508450646 e:\laboratorio ii\juego parcial 2 lab 2\juego actual3.1.1\enemigos.h
+

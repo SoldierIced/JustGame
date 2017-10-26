@@ -87,7 +87,7 @@ lvleohabi lvl;
 pj.spawn();
 SDL_Rect  recJugador[26];
 SDL_Rect  recEnemigo[34];
-SDL_Rect  recMinotauro[70];
+SDL_Rect  recMinotauro[74];
 for (int i =0; i<26; i++) {
 
 	recJugador[i].x = 0;
@@ -106,7 +106,7 @@ for (int i =0; i<34; i++) {
 	posyE+=120;
 }
 
-for (int i =0; i<70; i++) {
+for (int i =0; i<74; i++) {
 
 	recMinotauro[i].x = 0;
 	recMinotauro[i].y = posyM;
@@ -145,7 +145,11 @@ for (int i =0; i<70; i++) {
 				if(pj.Getframek()>=60) {pj.Setframek(0);}
         if (frame == fpeses) {///no tocar =1 segundo
             frame = 0;
-
+			if (segundos%18==0) {
+				if (Boss.Getcontador_de_dogeo()<3) {
+				Boss.Setcontador_de_dogeo (Boss.Getcontador_de_dogeo()+2 );}
+				}
+				if (segundos%4==0) {Boss.SetCD2(true);}
             segundos++;///tiempo general
           sum++;
 			 contador++; ///contador de alejar enemigos
@@ -212,8 +216,8 @@ pj.accion();
 
 
 
-crip.spawnCreeps(creep, &sum); ///spawn masivo de enemigos
-crip.ReseteoCreeps(creep,&Map.seg);///reseteo de spawn masivo de enemigos
+//crip.spawnCreeps(creep, &sum); ///spawn masivo de enemigos
+//crip.ReseteoCreeps(creep,&Map.seg);///reseteo de spawn masivo de enemigos
 
 
 for (int a=0; a<10; a++) { /// movimiento de enemigos
@@ -391,13 +395,24 @@ if(aux==10)  { /// movimiento de mapa
 
 
 
-			/** ACA EMPIEZA LO BUENO...
+			// ACA EMPIEZA LO BUENO...
 			//  BOSS
 //if (Map.cantidad==8) {
 			Boss.spawn();
             Boss.mover(pj.Getx(),pj.Gety());
+Boss.hab1();
+Boss.hab2();
 
-*/
+if (Boss.Getskill2()==true) {
+
+	if (check_collision(Boss.GethitbAtaque(),pj.Gethitbox())==true ) {
+
+	pj.Setvida(pj.GetVIDA()-Boss.Getdanio2());
+	Boss.Setpegar(false);
+
+	}
+
+}
 
 
 //}
@@ -422,7 +437,7 @@ for (int i =0; i<10; i++) {creep[i].atacar(pj.Getx(),pj.Gety(),pj.Gethitbox()); 
 	itoa(skill.Getcd(),charcdh1,10);/// DE INT A CHAR  / CD HABI 1
 	itoa(skill2.Getcd(),charcdh2,10);/// DE INT A CHAR  / CD HABI 2
 	itoa(skill3.Getcd(),charcdh3,10);/// DE INT A CHAR  / CD HABI 3
-	itoa (pj.GetVIDA(),vida,10); /// convertir vida jugador en letra
+	itoa (pj.Getx(),vida,10); /// convertir vida jugador en letra
 /// //////////////////////////////////////////////////////////////////////////////
 
 	itoa(segundos,timme,10);/// convertir numero en letra //segundos
@@ -501,8 +516,8 @@ if (cdhab2!=0) {aplicarSuperficie(526,649,botoncd,screen); aplicarSuperficie(530
 						aplicarSuperficie(0,600,segu,screen); /// palabra segundos
 
 						/// /////////////////////////////////////
-        SDL_Flip(screen);
 
+SDL_Flip(screen);
         if((fps.get_ticks() < 1000 / fpeses))
         {
             SDL_Delay((1000 / fpeses) - fps.get_ticks());
